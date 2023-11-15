@@ -1,0 +1,99 @@
+body {
+    font-family: Futura, sans-serif;
+    font-size:16px;
+}
+
+header {
+    margin: 10px 5px;
+
+}
+
+.allergies {
+    color: rgb(250, 80, 80);
+ }
+ #glutlac{
+    font-weight: bold;
+ }
+ 
+ #idname {
+    text-transform: uppercase;
+ }
+
+ .ingredients {
+    color: rgb(255, 255, 255);
+ }
+ 
+ #idname {
+    text-transform: uppercase;
+ }
+
+ #BURGERS {
+    background-color: #282828;
+    color: #ffffff;
+    border: 5px dashed #ffffff;
+    padding:20px;
+ }
+ 
+ #idname {
+    text-transform: uppercase;
+ }
+ 
+ button:hover {
+    background-color: rgb(92, 203, 255)
+ }
+ 
+ #BURGERS {
+    margin: 10px 5px;
+}
+#CUSTOMERS {
+    margin: 10px 5px;
+    border: 5px dashed #000000;
+    padding:20px;
+
+}
+#CUSTOMERS h2 {
+    font-size: 18px;
+}
+heading {
+    margin: 10px 5px;
+
+}
+
+button {
+    margin: 10px 5px;
+}
+
+#BURGERS > div {
+    padding: 10px; 
+}
+
+.TOPPAGE {
+    overflow:hidden
+
+}
+.TOPPAGE h1 {
+    position: absolute;
+    font-size:100px;
+    left: 20%;
+    margin-top: 120px;
+    z-index: 1;
+}
+
+.TOPPAGE img {
+    width: 100%;
+    height: auto;
+    opacity:0.8;
+    border-radius: 10px;
+
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    border-radius: 10px;
+
+}
+
+.box {
+    font-size: 150%;
+}

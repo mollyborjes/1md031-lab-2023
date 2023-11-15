@@ -1,1 +1,155 @@
-Hello world
+<!DOCTYPE HTML>
+<html lang="en">
+   <head">
+        <link rel="stylesheet" type="text/css" href="style.css">
+       <title>Order hamburger</title>
+       <meta charset="utf-8"/>
+   </head>
+   <body>
+
+    <header>
+        <div class="TOPPAGE">
+            <h1>Molly's Börgers</h1>
+            <img src="https://broadsword-group.co.uk/wp-content/uploads/2019/11/Fire-header-e1585581283650.jpg" alt="Fire header">
+        </div>
+    </header>
+
+    <main>
+        <section id="BURGERS" > 
+            
+
+            <div>
+            <h1>Select burger</h1>
+                Please choose your burgers
+            </div>
+
+            
+            <div class="wrapper">
+                <div class="box">
+
+            <h3>The baconburger</h3>
+            <img src="https://cdn-bk-se-ordering.azureedge.net/media/oc0hcdpj/bk_kiosk_400x290_singel_baconking.png" alt="Hamburger with cheese and bacon" title="Baconburger" style="width: 400px;">
+            <ul>
+                <section class="ingredients">                 
+                    <li>Bacon</li>
+                </section>
+                <section class="allergies">                 
+                    <li>Contains <span id="glutlac">lactose</span></li>
+                    <li>Contains <span id="glutlac">gluten</span></li>
+                </section>
+            </ul>
+            </div>
+
+            <div class="box">
+            <h3>The cheeseburger</h3>
+            <img src="https://cdn-bk-se-ordering.azureedge.net/media/ywfd4uqs/cheesy-cheese.png" alt="Hamburger with cheese" title="Cheeseburger" style="width: 400px;">
+            <ul>
+                <section class="ingredients">                 
+                <li>Cheddar cheese</li>
+                <li>Pickled onion</li>
+                </section>
+                <section class="allergies">
+                    <li>Contains <span id="glutlac">gluten</span></li>
+                </section>
+            </ul>
+            </div>
+
+            <div class="box">
+                <h3>The chickenburger</h3>
+                <img src="https://cdn-bk-se-ordering.azureedge.net/media/p0efl3e0/bk_chilicheesecrispychicken_400x290_singel.png" alt="Chickenburger" title="Chickenburger" style="width: 400px;">
+                <ul>
+                    <section class="ingredients">                 
+                        <li>Chicken</li>
+                        <li>Tomato</li>
+                        </section>
+                    <section class="allergies">
+                        <li>Contains <span id="glutlac">lactose</span></li>
+                        <li>Contains <span id="glutlac">gluten</span></li>
+                    </section>
+                </ul>
+                </div>
+            </div>
+        </section>
+
+                
+    
+
+
+        <section id="CUSTOMERS"> 
+            <h1>Customer Information</h1>
+            Please provide necessary information
+            <h2>Delivery Information:</h2>
+
+            <div>
+
+                <p>
+                    <label for="fullname">Full name</label><br>
+                    <input type="text" id="fullname" name="fn" required="required" placeholder="First- and Last name">
+                </p>
+              
+                <p>
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="em" required="required" placeholder="E-mail address">
+                </p>
+                <p>
+                    <label for="street name">Street</label><br>
+                    <input type="text" id="street name" name="sm" placeholder="Street Name">
+                </p>
+                <p>
+                    <label for="housenumber">House </label><br>
+                    <input type="number" id="housenumber" name="hn" placeholder="House Number">
+                </p>
+            </div>
+
+            <div>
+                <p>
+                    <label for="paymentmethod">Payment</label><be>
+                        <select id="paymentmethod" name="pm">
+
+                        <option selected="selected"> Card </option>
+                        <option>Cash</option>
+                        <option>Swish</option>
+                        <option>Klarna</option>
+                    </select>
+                 </p>
+            </div>
+
+      
+            <legend>Gender</legend>
+
+            <div>
+              <input type="radio" id="female" name="gender" value="female" checked />
+              <label for="female">Female</label>
+            </div>
+          
+            <div>
+              <input type="radio" id="male" name="gender" value="male" />
+              <label for="male">Male</label>
+            </div>
+            <div>
+                <input type="radio" id="other" name="gender" value="other" />
+                <label for="other">Other</label>
+              </div>
+            <div>
+              <input type="radio" id="donotwishtoprovide" name="gender" value="donotwishtoprovide" />
+              <label for="donotwishtoprovide">Do not wish to provide</label>
+            </div>
+       
+        
+        </section>
+
+        <div>
+            <button type="submit">
+            <img src="https://cdn-icons-png.flaticon.com/512/3682/3682321.png" alt="Sendbutton" title="Send" style="width: 10px;">
+            Send Info
+          </button>
+        </div>
+    </main>
+    <hr>
+    <footer>
+        End notes
+    </footer>
+
+   </body>
+   
+</html>
