@@ -18,6 +18,32 @@ import io from 'socket.io-client'
 
 const socket = io();
 
+//Object Constructor Function
+
+function MenuItem(pn, pi, kCal, glu, lac) {
+    this.productName = pn; // The *this* keyword refers to the object itself
+    this.productImage = pi;
+    this.calories = kCal;
+    this.gluten = glu;
+    this.lactose = lac;
+    this.productInfo = function() {
+        return "name:" + this.productName + ", url:" +this.productImage+ ', kCal:' + this.calories + ", lactose:" + this.lactose;
+    };
+
+}
+
+// Objects are then instantiated using the *new* keyword
+
+const burgersArray = [
+    new MenuItem('Baconburger', 'https://cdn-bk-se-ordering.azureedge.net/media/oc0hcdpj/bk_kiosk_400x290_singel_baconking.png', '900', true, true),
+    new MenuItem('Cheeseburger', 'https://cdn-bk-se-ordering.azureedge.net/media/ywfd4uqs/cheesy-cheese.png', '850', false,false),
+    new MenuItem('Chickenburger', 'https://cdn-bk-se-ordering.azureedge.net/media/p0efl3e0/bk_chilicheesecrispychicken_400x290_singel.png', '750', true, false)
+];
+
+//for burger in burgersArray 
+//new MenuItem = 
+console.log( this.productInfo() );
+
 export default {
   name: 'HomeView',
   components: {
@@ -25,10 +51,7 @@ export default {
   },
   data: function () {
     return {
-      burgers: [ {name: "small burger", kCal: 250},
-                 {name: "standard burger", kCal: 450},
-                 {name: "large burger", kCal: 850}
-               ]
+      burgers: burgersArray
     }
   },
   methods: {
