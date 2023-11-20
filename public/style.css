@@ -97,3 +97,11 @@ button {
 .box {
     font-size: 150%;
 }
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    /* Add more styles for smaller screens as needed */
+}

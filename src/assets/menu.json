@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Baconburger",
+        "kCal": 900,
+        "ingredients": ["Bacon"],
+        "allergies": ["Lactose", "Gluten"],
+        "img": "https://cdn-bk-se-ordering.azureedge.net/media/oc0hcdpj/bk_kiosk_400x290_singel_baconking.png"
+    },
+    {
+        "name": "Cheeseburger",
+        "kCal": 850,
+        "ingredients": ["Cheddar cheese", "Pickled onion"],
+        "allergies": ["Lactose"],
+        "img": "https://cdn-bk-se-ordering.azureedge.net/media/ywfd4uqs/cheesy-cheese.png"
+    },
+    {
+        "name": "Chickenburger",
+        "kCal": 750,
+        "ingredients": ["Chicken", "Tomato"],
+        "allergies": ["Lactose", "Gluten"],
+        "img": "https://cdn-bk-se-ordering.azureedge.net/media/p0efl3e0/bk_chilicheesecrispychicken_400x290_singel.png"
+    }
+  ]
