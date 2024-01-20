@@ -121,7 +121,7 @@ const socket = io();
 
 // Modify your MenuItem object structure
 
-function MenuItem(fn, img, kCal, lac, glut) { // används aldrig
+function MenuItem(fn, img, kCal, lac, glut) { 
   this.name = fn;
   this.kCal = kCal
   this.url = img;
@@ -210,7 +210,6 @@ computed: {
                               }
                  );
     
-        // Clear the choices after placing the order
       this.fn = '';
       this.em = '';
       this.pm = 'Card';
@@ -227,7 +226,7 @@ computed: {
 
 <style>
   #map {
-    background: url("/Users/mollyborjes/Desktop/1md031-lab-2023/public/img/polacks.jpg");
+    background: url('../../public/img/polacks.jpg');
     width: 1920px;
     height: 1078px;
   }
@@ -333,4 +332,3 @@ button {
 }
 
 </style>
-
